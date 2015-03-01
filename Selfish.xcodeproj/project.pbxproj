@@ -53,6 +53,8 @@
 		810DC3EC1AA28E82006230FC /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		810DC3ED1AA28E82006230FC /* RNFrostedSidebar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNFrostedSidebar.h; sourceTree = "<group>"; };
 		810DC3EE1AA28E82006230FC /* RNFrostedSidebar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNFrostedSidebar.m; sourceTree = "<group>"; };
+		810DC3F11AA29CF2006230FC /* Objective-CBridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Objective-CBridgingHeader.h"; sourceTree = "<group>"; };
+		810DC3F41AA29F0D006230FC /* Selfish-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Selfish-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 		470033641AA262A30020E961 = {
 			isa = PBXGroup;
 			children = (
+				810DC3F41AA29F0D006230FC /* Selfish-Bridging-Header.h */,
 				810DC3EB1AA28DF5006230FC /* Frameworks */,
 				4700336F1AA262A30020E961 /* Selfish */,
 				470033851AA262A30020E961 /* SelfishTests */,
@@ -107,6 +110,7 @@
 				470033761AA262A30020E961 /* Main.storyboard */,
 				810DC3DD1AA282B3006230FC /* SignUpViewController.swift */,
 				810DC3DF1AA282C8006230FC /* MainViewController.swift */,
+				810DC3F11AA29CF2006230FC /* Objective-CBridgingHeader.h */,
 				470033791AA262A30020E961 /* Images.xcassets */,
 				4700337B1AA262A30020E961 /* LaunchScreen.xib */,
 				470033701AA262A30020E961 /* Supporting Files */,
@@ -381,6 +385,7 @@
 				INFOPLIST_FILE = Selfish/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/silveyra/Documents/iOS/Selfless/Selfish-Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -391,6 +396,7 @@
 				INFOPLIST_FILE = Selfish/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/silveyra/Documents/iOS/Selfless/Selfish-Bridging-Header.h";
 			};
 			name = Release;
 		};

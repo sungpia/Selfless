@@ -81,10 +81,16 @@
                                 <state key="normal" title="Button">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="sidebarButtonPressed:" destination="CJp-lv-mOJ" eventType="touchUpInside" id="oR7-wc-12m"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="sidebarButton" destination="Dce-9Q-fvh" id="tmw-WT-TND"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RGc-LG-tC0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
